@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Home · Rift Vision</title>
+<meta name="description" content="Rift Vision: a Riftbound companion app. Scan pack openings, see prices, track your collection, build decks.">
+<link rel="icon" href="icon.png"><style>
+:root{--bg:#0b0e14;--card:#161a23;--text:#f2f3f5;--muted:#b0b4ba;--gold:#c8aa6e;--line:#262b36}
+@media(prefers-color-scheme:light){:root{--bg:#f7f4ec;--card:#ffffff;--text:#0b0e14;--muted:#5b6068;--gold:#9c7a3c;--line:#e4dfd2}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.wrap{max-width:820px;margin:0 auto;padding:24px 20px 64px}
+header{display:flex;align-items:center;gap:14px;padding:8px 0 24px;border-bottom:1px solid var(--line);margin-bottom:28px}
+header img{width:48px;height:48px;border-radius:12px}header .name{font-weight:700;font-size:20px}header .by{color:var(--muted);font-size:14px}
+nav a{color:var(--muted);text-decoration:none;margin-right:16px}nav a:hover,nav a.on{color:var(--gold)}
+h1{font-size:32px;margin:0 0 8px}h2{font-size:18px;margin:28px 0 8px}p,li{color:var(--text)}.muted{color:var(--muted)}
+.hero{display:grid;grid-template-columns:1fr;gap:20px;align-items:center}@media(min-width:680px){.hero{grid-template-columns:1.2fr 1fr}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px}
+ul.feat{padding-left:20px}ul.feat li{margin:6px 0}
+.shots{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px;margin-top:16px}.shots img{width:100%;border-radius:12px;border:1px solid var(--line)}
+.disc{font-size:14px;color:var(--muted);border-top:1px solid var(--line);margin-top:40px;padding-top:16px}
+a{color:var(--gold)}
+</style></head>
+<body><div class="wrap">
+<header><img src="icon.png" alt=""><div><div class="name">Rift Vision</div><div class="by">by ariftpull</div></div></header>
+<nav><a href="index.html" class="on">Home</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="licenses.html">Licensing</a></nav>
+
+<div class="hero">
+  <div>
+    <h1>Open packs. Know what you pulled.</h1>
+    <p>Rift Vision is a free Android companion for the Riftbound trading card game. Point the camera at each card as you open a pack: it is recognised on your phone, priced, and added to your collection while you record.</p>
+    <p class="muted">Android beta coming soon. Everything runs on your phone; nothing is uploaded.</p>
+  </div>
+  <div class="card">
+    <ul class="feat">
+      <li><b>Scan as you open</b> — on-device card recognition, no typing</li>
+      <li><b>Prices</b> — TCGplayer market prices, refreshed daily</li>
+      <li><b>Collection</b> — set completion, filters, sorting, value</li>
+      <li><b>Decks</b> — builder with the official deckbuilding rules, import/export, missing cards and cost</li>
+      <li><b>Trades</b> — scan what changes hands; your collection follows</li>
+      <li><b>Export</b> — your opening as a video with prices burned in</li>
+      <li><b>Backups</b> — to a file, or your own Google Drive</li>
+    </ul>
+  </div>
+</div>
+<h2>Screenshots</h2>
+<div class="shots">
+  <img src="shots/home.png" alt="Home screen"><img src="shots/record.png" alt="Recording a pack opening"><img src="shots/collection.png" alt="Collection"><img src="shots/decks.png" alt="Deck builder">
+</div>
+<h2>Privacy in one line</h2>
+<p>Your collection, videos and decks stay on your phone. Optional Google sign-in exists only so you can back up to your own Drive. No analytics, no ads, no account required. <a href="privacy.html">Full privacy policy</a> · <a href="terms.html">Terms</a> · <a href="licenses.html">Licensing</a>.</p>
+
+
+<p class="disc">Rift Vision was created under Riot Games' "Legal Jibber Jabber" policy using assets owned by Riot Games. Riot Games does not endorse or sponsor this project.</p>
+</div></body></html>
